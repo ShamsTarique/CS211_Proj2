@@ -1,0 +1,10 @@
+
+LAPACK library  went through  (2.339999914169312 seconds) to complete running for a matrix size of 1000x1000. 
+
+LAPACK library  went through  (7.570000171661377 seconds) to complete running for a matrix size of 2000x2000. 
+
+LAPACK library  went through  (18.590000152587891 seconds) to complete running for a matrix size of 3000x3000. 
+
+LAPACK library  went through  (40.020000457763672 seconds) to complete running for a matrix size of 4000x4000. 
+
+LAPACK library  went through  (57.720001220703125 seconds) to complete running for a matrix size of 5000x5000. 
