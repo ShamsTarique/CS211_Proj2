@@ -80,23 +80,6 @@ clock_t time = clock();
          }
 
     }
-/*
-   printf("\nfactorization:\n");
-   for (int i = 0; i < m; i++) {  
-            for (int j = 0; j < n; j++){ 
-                printf("  %lf ", A[i*n+j]);                 
-       }                                                                
-       printf("\n");
-    }  
-
-
-  printf("\nipiv contents:\n");
-  for(int i = 0; i < m; i++)
-    printf("  %d\n",pivot[i]); 
-  printf("\n");
-  
-
-*/
 
 //TODO: fix both of these lower blocks V
 //forward substitution --lower  --mydtrsm
@@ -156,7 +139,10 @@ time = clock()- time;
 //for(int k =0; k<m; k++)
 //    printf("%.15f \n", x[k]);
 
-printf("\nfor size of  n = %d my LU algorithm took %.15f seconds\n",sizes_of_m[p],((float)time)/CLOCKS_PER_SEC);
- }
+//printf("\nfor size of  n = %d my LU algorithm took %.15f seconds\n",sizes_of_m[p],((float)time)/CLOCKS_PER_SEC);
+ 
+
+
+}
 return 0;
 }
